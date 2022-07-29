@@ -1,0 +1,62 @@
+.Detailwrapper{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+}
+li{
+    font-size: 1.2rem;
+
+    line-height: 2.5rem;
+}
+ul{
+    margin-top: 2rem;
+}
+.Button{
+    padding:1rem 2rem ;
+    height: 4rem;
+    color: black ;
+    background-color:white ;
+    border: 3px solid black;
+    margin-right: 2rem;
+    font-weight: 600;
+
+}
+.Recipe-img{
+    height: 15rem;
+    /* width: 80%; */
+}
+.Recipe-left{
+    margin-top: 3rem;
+ 
+    align-items: center;
+    /* background-color: aqua; */
+}
+.Recipe-left h3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Info{
+    margin-left: 5rem;
+    /* display: flex; */
+    width: 80%;
+    /* background-color: bisque; */
+
+}
+.ll{
+    display: flex;
+}
+.active{
+    padding:1rem 2rem ;
+    height: 4rem;
+    color: rgb(241, 239, 239) ;
+    background-color:white ;
+    border: 3px solid black;
+    margin-right: 2rem;
+    font-weight: 600;
+    background-color: rgb(87, 85, 85);
+
+}
+.sum{
+    margin-top: 2rem;
+}

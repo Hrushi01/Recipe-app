@@ -1,0 +1,38 @@
+.Logo-whole{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+}
+.Logo-left{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+.Logo-right{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(116, 114, 114);
+    font-size: larger;
+
+}
+.icon{
+    background-color: black;
+    height: 2.5rem;
+    width: 2rem;
+    border-radius: 5px;
+}
+.Logoo{
+    height: 5rem;
+    background-color: white;
+    border:  none;
+    display: flex;
+    justify-content: space-between;
+}

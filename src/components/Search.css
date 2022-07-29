@@ -1,0 +1,33 @@
+form{
+    margin: 0rem 7rem;
+    width: 70%;
+    /* background-color: aqua; */
+
+}
+input{
+    border: none ;
+    background-color: rgb(96, 102, 108);
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    width: 100%;
+}
+.Search-in{
+    position: relative;
+    width: 100%;
+}
+.Search-icon{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: aliceblue;
+    transform: translate(100%,-50%);
+    
+}
+
+::placeholder{
+    color: aliceblue;
+}

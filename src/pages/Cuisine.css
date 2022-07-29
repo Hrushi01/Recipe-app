@@ -1,0 +1,19 @@
+.Grid{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 3rem,
+}
+
+.card-cu img{
+    width: 90%;
+    border-radius: 2rem;
+    
+}
+/* .card-cu a{
+    text-decoration: none;
+} */
+.card-cu h4{
+    text-align: center;
+    padding: 1rem;
+}
