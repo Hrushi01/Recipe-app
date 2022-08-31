@@ -1,7 +1,5 @@
-*To Run the Recipe-app on browser use below link:*
-*To Run the Recipe-app on browser use below link:*
-*To Run the Recipe-app on browser use below link:*
-verdant-crumble-a4fa7d.netlify.app
+
+[Recipe-website](verdant-crumble-a4fa7d.netlify.app)
 
 
 
