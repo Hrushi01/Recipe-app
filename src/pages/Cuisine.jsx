@@ -1,7 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
 import { useState, useEffect } from "react";
 import "./Cuisine.css";
 
@@ -12,7 +12,7 @@ export default function Cuisine() {
 
   const getCuisine = async (name) => {
     const data = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=737e9f1e5c544232a55df8cb65629ff4&cuisine=${name}`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&cuisine=${name}`
     );
     const ex = await data.json();
     // console.log(ex);
@@ -23,7 +23,7 @@ export default function Cuisine() {
 
   useEffect(() => {
     getCuisine(params.type);
-    console.log(params.type);
+    // console.log(params.type);
   }, [params.type]);
 
   return (
@@ -33,7 +33,7 @@ export default function Cuisine() {
           <div className="card-cu" key={item.key}>
             <Link to={"/recipe/" + item.id}>
               <img src={item.image} alt="yo yo" className="ci-img" />
-              <h4>{item.title}</h4>
+              <div className="kancha">{item.title}</div>
             </Link>
           </div>
         );

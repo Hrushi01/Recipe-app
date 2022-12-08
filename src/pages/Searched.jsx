@@ -11,7 +11,7 @@ export default function Searched() {
 
   const getSearched = async (name) => {
     const data = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=737e9f1e5c544232a55df8cb65629ff4&query=${name}`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&query=${name}`
     );
     const ex = await data.json();
 
@@ -26,12 +26,12 @@ export default function Searched() {
   return (
     <>
       <div className="Grid">
-        {SearchedRecipies.map((item) => {
+        {SearchedRecipies?.map((item) => {
           return (
             <div className="card-cu" key={item.id}>
               <Link to={"/recipe/" + item.id}>
                 <img src={item.image} alt=" pic missing" />
-                <h4>{item.title}</h4>
+                <h4 className="title-link">{item.title}</h4>
               </Link>
             </div>
           );

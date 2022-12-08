@@ -3,6 +3,8 @@
     height: 5rem;
     width: 100%;
     justify-content: space-between;
+    /* background-color: aqua; */
+    padding: 10px;
 }
 .Logo-left{
     /* background-color: aqua; */
@@ -10,12 +12,16 @@
     justify-content: center;
     align-items: center;
     color: black;
-    font-size: larger;
-    margin-left: 5px;
+    font-size: xx-large;
+    font-weight: 400;
+    /* margin-left: 5px; */
     margin-right: 0px;
+    font-family: 'Dancing Script', cursive;
+    
 }
 .Logo-right{
     /* background-color: aqua; */
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,14 +29,15 @@
     font-size: larger;
 
 }
-.icon{
+/* .icon{
     background-color: black;
     height: 2.5rem;
     width: 2rem;
+    margin-right: 2px;
     border-radius: 5px;
-}
+} */
 .Logoo{
-    height: 5rem;
+    /* height: 5rem; */
     background-color: white;
     border:  none;
     display: flex;

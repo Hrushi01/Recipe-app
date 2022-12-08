@@ -1,0 +1,99 @@
+.Attract{
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    /* max-width: 100vw; */
+    /* padding: 1rem; */
+    border-radius:20px;
+    background-color: #e4f1ff;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.space-taker{
+    width: 100%;
+
+}
+.Att-img{
+    width: 70%;
+    /* background-color: black; */
+    overflow: hidden;
+
+    height:25rem ;    
+
+}
+.Att-img img{
+    width: 100%;
+    /* height: 100%; */
+}
+.att-slide{
+    display: flex;
+    overflow: hidden;
+}
+.Att-txt{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    padding-top: 15%;
+    height: 25rem;
+    width: 30%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%); */
+
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    background-color: #e4f1ff;
+
+}
+
+
+
+/* .Attract-img{
+    background-color: blue;
+height: 17rem;
+border-radius:3rem 0 0 0;
+margin-left: 1rem;
+max-width: 55vw;
+} */
+/* .Attract-onetwo{
+    max-width: 70vw;
+    height: 18rem;
+    display: flex;
+    background-color: beige; 
+    overflow: hidden;
+      margin-left: 5px; 
+} */
+/* .att{
+    max-width: 90vw;
+    background-color: blueviolet;
+    display: flex;
+    width: 100vw;
+    padding: 0.8rem;
+    border-radius:3rem 0;
+    height: 18rem;
+    margin-left: 20px;
+
+} */
+/* .two{
+    background-color: rgb(19, 125, 218);
+    height: 17rem;
+    max-width: 45vw;
+    width: 45vw;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    border-radius:0rem 0 3rem 0;
+    font-size: 100%;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    color: aliceblue;
+}
+.in{
+    width: 40vw;
+} */

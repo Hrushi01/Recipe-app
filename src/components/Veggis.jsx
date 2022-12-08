@@ -21,7 +21,7 @@ export default function Veggis() {
       setVeggis(JSON.parse(check));
     } else {
       const Response = await axios.get(
-        "https://api.spoonacular.com/recipes/random?apiKey=737e9f1e5c544232a55df8cb65629ff4&number=9&tags=vegan"
+        "https://api.spoonacular.com/recipes/random?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&number=9&tags=vegan"
       );
       localStorage.setItem("Veggis", JSON.stringify(Response.data.recipes));
 
@@ -35,11 +35,11 @@ export default function Veggis() {
   return (
     <div>
       <div className="wrapper">
-        <h2>Veggis Recipies Picks</h2>
+        <div className="tit">Picks for the day</div>
 
         <Splide
           options={{
-            perPage: 4,
+            perPage: 2.5,
             arrows: false,
             pagination: false,
             drag: "free",

@@ -1,12 +1,25 @@
 .Wrapper{
     margin: 4rem 0rem;
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 6rem; */
     
+}
+.tit{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.agnipat{
+    margin: 0px;
+    padding: 0px;
 }
 .card{
     min-height: 15rem;
-    border-radius: 2rem;
+    border-radius: .5rem;
     /* background-color: aqua; */
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
     overflow: hidden;
     position: relative;
 }
@@ -16,7 +29,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 p{
     position: absolute;

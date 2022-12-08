@@ -6,8 +6,8 @@
 }
 
 .card-cu img{
-    width: 90%;
-    border-radius: 2rem;
+    width: 95%;
+    border-radius: 1rem;
     
 }
 /* .card-cu a{
@@ -16,4 +16,23 @@
 .card-cu h4{
     text-align: center;
     padding: 1rem;
+}
+.kancha{
+    font-family: "Raleway";
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+}
+
+.title-link{
+    color: rgb(69, 69, 69);
+    
+    
 }

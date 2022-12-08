@@ -19,6 +19,7 @@ ul{
     border: 3px solid black;
     margin-right: 2rem;
     font-weight: 600;
+    margin-left: 2rem;
 
 }
 .Recipe-img{
@@ -48,13 +49,13 @@ ul{
 }
 .active{
     padding:1rem 2rem ;
-    height: 4rem;
+    /* height: 4rem; */
     color: rgb(241, 239, 239) ;
     background-color:white ;
-    border: 3px solid black;
-    margin-right: 2rem;
+    /* border: 3px solid black; */
+    /* margin-right: 2rem; */
     font-weight: 600;
-    background-color: rgb(87, 85, 85);
+    background-color: rgb(225, 87, 12);
 
 }
 .sum{

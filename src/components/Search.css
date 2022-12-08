@@ -1,19 +1,22 @@
 form{
-    margin: 0rem 7rem;
+    margin: 2rem 7rem 2rem 7rem;
     width: 70%;
     /* background-color: aqua; */
+    padding: 8px;
+
 
 }
 input{
     border: none ;
-    background-color: rgb(96, 102, 108);
+    background-color: rgb(172, 174, 175);
     color: aliceblue;
-    font-size: 1.5rem;
-    padding: 1rem 3rem;
+    font-size: 1rem;
+    padding: 1rem 4rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 5rem;
     outline: none;
     width: 100%;
+    /* padding-left: 10px; */
 }
 .Search-in{
     position: relative;
